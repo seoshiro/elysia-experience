@@ -14,16 +14,28 @@
       "role": "Hero background — actual Gemini image-to-video",
       "reference_sha256": "c73a4a4fcb78dd756f76e616577827da66c6dab133078aa1f2945a4130bd2a5f",
       "type": "Gemini image-to-video",
-      "source_sha256": "0398bc334904ed98580af8a2b2d0febc0568005b92549368552734ef57464d56",
+      "source_sha256": "6992f2ab2af2093d9dae560715b8e0c3cd590f43ab2c6b739130c2931e0ec1ca",
       "source_dimensions": [
-        1280,
-        720
+        1920,
+        1080
       ],
       "source_fps": 24,
-      "source_duration_seconds": 10.005,
+      "source_duration_seconds": 9.963,
       "web_duration_seconds": 5,
-      "processing": "Silent H.264 faststart, color unchanged, 0.25-second circular overlap; no reverse motion or frame interpolation.",
-      "quality": "Full-duration operator and independent source reviews accepted stable camera, architecture and anatomy. Brief overlap ghosting remains; contextual playback review pending."
+      "processing": "Silent H.264 faststart, 24 fps, source color tags retained. Desktop 1920x1080 CRF20; mobile 1280x720 CRF19. Accepted five-second circular loop phase retained: source frames106-219 followed by six frames blending source220-225 with100-105 at head weights0,1/6,2/6,3/6,4/6,5/6. No reverse motion, motion interpolation or new generation. WebP posters use encoded loop frame12 (0.5 seconds), chosen so the foreground petal does not cover the right swan eye.",
+      "quality": "Independent equal-scale encode and mobile-cover comparisons selected CRF20 desktop and 720p mobile to retain visible upscale detail. Dense five-second chronology and seam frames show no black-frame interval or new gross morphing. Brief doubled swan contours/petals remain during the inherited 0.25-second overlap; not claimed ghost-free/perfectly seamless. Continuous normal-speed perception remains unverified.",
+      "original_generation_source": {
+        "sha256": "0398bc334904ed98580af8a2b2d0febc0568005b92549368552734ef57464d56",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "fps": 24,
+        "duration_seconds": 10.005
+      },
+      "upscale": "User-supplied 1080p upscale of the accepted original. Upscale provider/model not independently verified; added apparent texture is not claimed recovered factual detail.",
+      "poster_frame": 12,
+      "poster_time_seconds": 0.5
     },
     {
       "scene": "02-featured",

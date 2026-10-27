@@ -1,7 +1,7 @@
 {
   "project": "Elysia",
-  "curated_utc": "2026-10-27T12:54:00Z",
-  "loop_review": "Sources and dense frame/seam review passed; final normal-speed contextual playback review remains required. Brief swan-neck echo can occur during each 0.25-second overlap.",
+  "curated_utc": "2026-10-27T17:44:58Z",
+  "loop_review": "Hero updated from the user-supplied 1080p upscale. Dense full-loop frame and seam inspection plus independent encode comparison completed. The accepted 0.25-second circular overlap is preserved, including brief doubled swan contours and petals; not claimed ghost-free or perfectly seamless. Normal-speed contextual seam perception remains unverified. Nature and still assets are unchanged.",
   "assets": [
     {
       "file": "01-hero-mobile.mp4",
@@ -9,10 +9,10 @@
       "role": "Hero background — actual Gemini image-to-video",
       "kind": "video",
       "variant": "mobile",
-      "bytes": 845178,
-      "sha256": "78c0eaed2460eb1a8f6cc7df9120b8c0a40331d745552e63bfe75c9d03e85e1e",
-      "width": 960,
-      "height": 540,
+      "bytes": 2550766,
+      "sha256": "d007c9416b8a474e8bf05359443d4969606abedd4c46f1d9f20e07150313ff6b",
+      "width": 1280,
+      "height": 720,
       "duration_seconds": 5.0,
       "fps": "24/1",
       "codec": "h264",
@@ -25,10 +25,10 @@
       "role": "Hero background — actual Gemini image-to-video",
       "kind": "poster",
       "variant": "mobile",
-      "bytes": 111460,
-      "sha256": "1cdeae87c67913252a25fd88efa3d494f6370aa733f0389fd14b0a27bfbc0809",
-      "width": 960,
-      "height": 540
+      "bytes": 232058,
+      "sha256": "5b9630bfb964546fb335eb46488ab5d375266a4f29dbe306b67b902828f670e5",
+      "width": 1280,
+      "height": 720
     },
     {
       "file": "01-hero.mp4",
@@ -36,10 +36,10 @@
       "role": "Hero background — actual Gemini image-to-video",
       "kind": "video",
       "variant": "desktop",
-      "bytes": 1967587,
-      "sha256": "39f8165695dd5c00f01d9a6c920ea80ecfe6d8f8e17a52076e42659641ca1f3e",
-      "width": 1280,
-      "height": 720,
+      "bytes": 4108681,
+      "sha256": "6d7b4afc4b2e2aa0e3544af0702b6c67bb42a38547a166a53bad2d34e73d77d5",
+      "width": 1920,
+      "height": 1080,
       "duration_seconds": 5.0,
       "fps": "24/1",
       "codec": "h264",
@@ -52,10 +52,10 @@
       "role": "Hero background — actual Gemini image-to-video",
       "kind": "poster",
       "variant": "desktop",
-      "bytes": 168828,
-      "sha256": "1a486578b0838ee927454e7cc8572cb79a87abcb2b5f26106f0004bda0be742a",
-      "width": 1280,
-      "height": 720
+      "bytes": 411530,
+      "sha256": "c4812e9e4db46ee070975d03a1bfebbdfb2733ff07af2b565316527f4e6235ed",
+      "width": 1920,
+      "height": 1080
     },
     {
       "file": "02-featured.webp",
