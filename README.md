@@ -1,4 +1,4 @@
-# Elysia - A World Beyond Time
+# Elysia — A World Beyond Time
 
 A cinematic, responsive single-page experience of water, stone, and light. Built with React, TypeScript, Vite, Tailwind CSS, Framer Motion, and Lucide. Instrument Serif is self-hosted under its included SIL Open Font License.
 
@@ -24,7 +24,7 @@ Production output is `dist/`. Vite uses the explicit `/elysia-experience/` base 
 
 The agreed composition contains **two real Gemini image-to-video scenes** (Hero and The Living Waters) and **three static WebP scenes** (Featured, Philosophy, and The Forgotten Sanctuary). Static scenes do not simulate video with CSS movement.
 
-Both clips use silent H.264, 24 fps, five-second loops, and faststart. Desktop files are 1280?720; mobile variants are 960?540. A short encoded overlap softens the boundary. A brief doubled contour may remain around a moving swan during that overlap; these are not described as perfectly seamless loops.
+Both clips use silent H.264, 24 fps, five-second loops, and faststart. Desktop files are 1280×720; mobile variants are 960×540. A short encoded overlap softens the boundary. A brief doubled contour may remain around a moving swan during that overlap; these are not described as perfectly seamless loops.
 
 `public/media/manifest.json` records eleven media files, byte sizes, dimensions, and SHA256 hashes. `provenance.json` records generation and processing without private account URLs or credentials. `npm run verify:media` checks every hash and independently parses MP4 structure for dimensions, duration, frame rate, codec, audio absence, and faststart ordering.
 
