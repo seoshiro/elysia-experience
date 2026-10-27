@@ -1,0 +1,66 @@
+{
+  "project": "Elysia",
+  "generation_date": "2026-10-27",
+  "scope": "Two actual image-to-video scenes plus three original-image stills. No animated-still substitutes presented as generated videos.",
+  "provider": "Gemini web UI",
+  "observed_ui_labels": [
+    "Create videos with Gemini Omni",
+    "Argon mode picker"
+  ],
+  "backend_model": "Not independently verified; observed UI labels are not a backend-version claim.",
+  "scenes": [
+    {
+      "scene": "01-hero",
+      "role": "Hero background — actual Gemini image-to-video",
+      "reference_sha256": "c73a4a4fcb78dd756f76e616577827da66c6dab133078aa1f2945a4130bd2a5f",
+      "type": "Gemini image-to-video",
+      "source_sha256": "0398bc334904ed98580af8a2b2d0febc0568005b92549368552734ef57464d56",
+      "source_dimensions": [
+        1280,
+        720
+      ],
+      "source_fps": 24,
+      "source_duration_seconds": 10.005,
+      "web_duration_seconds": 5,
+      "processing": "Silent H.264 faststart, color unchanged, 0.25-second circular overlap; no reverse motion or frame interpolation.",
+      "quality": "Full-duration operator and independent source reviews accepted stable camera, architecture and anatomy. Brief overlap ghosting remains; contextual playback review pending."
+    },
+    {
+      "scene": "02-featured",
+      "role": "Featured / About — temporary static original-image scene",
+      "reference_sha256": "2a5e1852efa25fbff90d523609e690fe5b67b9e30f326fdff471c068bc61c586",
+      "type": "original image still",
+      "processing": "Original provided image re-encoded as WebP; no simulated motion."
+    },
+    {
+      "scene": "03-philosophy",
+      "role": "Philosophy — temporary static original-image scene",
+      "reference_sha256": "a5def11186324b359fd122f455281a63374528a4a059a195f1c7283a71f99d6d",
+      "type": "original image still",
+      "processing": "Original provided image re-encoded as WebP; no simulated motion."
+    },
+    {
+      "scene": "04-nature",
+      "role": "The Living Waters card — actual Gemini image-to-video",
+      "reference_sha256": "ba72f3e89ac6af74fa304fd4490f1bb46241c6195222b0cc06daf3573e1c5f42",
+      "type": "Gemini image-to-video",
+      "source_sha256": "2ce1affa46d6c580650988b0df58537fb81b64241bbe0ced7ade9bd8b03ba469",
+      "source_dimensions": [
+        1280,
+        720
+      ],
+      "source_fps": 24,
+      "source_duration_seconds": 10.005,
+      "web_duration_seconds": 5,
+      "processing": "Silent H.264 faststart, color unchanged, 0.25-second circular overlap; no reverse motion or frame interpolation.",
+      "quality": "Full-duration operator and independent source reviews accepted stable camera, architecture and anatomy. Brief overlap ghosting remains; contextual playback review pending."
+    },
+    {
+      "scene": "05-temple",
+      "role": "The Forgotten Sanctuary card — temporary static original-image scene",
+      "reference_sha256": "6fa1b9a6e12c5c5392fbc91c975b871cbd296800c6e386d2452c65abee853725",
+      "type": "original image still",
+      "processing": "Original provided image re-encoded as WebP; no simulated motion."
+    }
+  ]
+}
