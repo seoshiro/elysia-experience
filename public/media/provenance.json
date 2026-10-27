@@ -110,8 +110,26 @@
       "source_fps": 24,
       "source_duration_seconds": 10.005,
       "web_duration_seconds": 5,
-      "processing": "Silent H.264 faststart, color unchanged, 0.25-second circular overlap; no reverse motion or frame interpolation.",
-      "quality": "Full-duration operator and independent source reviews accepted stable camera, architecture and anatomy. Brief overlap ghosting remains; contextual playback review pending."
+      "processing": "Published accepted 5.00-second loop spatially upscaled from 1280x720 to 1920x1080 using FFmpeg Lanczos (accurate_rnd, full_chroma_int), encoded as silent H.264 High yuv420p, libx264 slow CRF20, faststart. Desktop and mobile receive identical 1080p video and poster bytes. All 120 frames and presentation timestamps at 24 fps are retained; existing 0.25-second circular overlap is unchanged. No new generation, color grade, sharpening, reverse motion, frame interpolation or loop retiming. Source color tags retained. WebP quality90 posters use encoded frame12 (0.5 seconds).",
+      "quality": "Independent full 120-frame review and equal-scale lotus, swan and seam comparisons found no new visible artifacts. Timing matches the published loop exactly. CRF20 was selected over CRF18 for negligible visible difference at 21.4% fewer bytes. Existing brief swan-neck echo and petal blending during the inherited overlap remain; no black fade, and not claimed perfectly seamless or ghost-free. Normal-speed page-context perception was not re-evaluated in this spatial-upscale pass.",
+      "upscale": "Local Lanczos spatial resampling of the accepted published 720p loop. This is a 1920x1080 delivery file, not native 1080p capture/generation, an AI enhancement, or recovered factual detail. No Flow upscale was performed for Nature.",
+      "upscale_input": {
+        "sha256": "2541a2af4a88941695315008322337a8d37b236134385c044f107a81bbbbe6a9",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "fps": 24,
+        "frames": 120,
+        "duration_seconds": 5,
+        "description": "Previously published accepted Nature loop; original generation metadata above retained for provenance."
+      },
+      "web_dimensions": [
+        1920,
+        1080
+      ],
+      "poster_frame": 12,
+      "poster_time_seconds": 0.5
     },
     {
       "scene": "05-temple",

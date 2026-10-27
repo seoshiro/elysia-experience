@@ -1,7 +1,7 @@
 {
   "project": "Elysia",
-  "curated_utc": "2026-10-27T19:44:08.031706Z",
-  "loop_review": "Hero updated from the user-supplied 1080p upscale. Dense full-loop frame and seam inspection plus independent encode comparison completed. The accepted 0.25-second circular overlap is preserved, including brief doubled swan contours and petals; not claimed ghost-free or perfectly seamless. Normal-speed contextual seam perception remains unverified. Hero and Nature media are unchanged by this three-scene update. Added Featured, Philosophy and Temple from actual Google Flow image-to-video sources with 1080p upscaled desktop and 720p mobile exports. Their full source/upscale chronology and dense loop seams were inspected. All new loops use 0.25-second overlaps, not black fades; brief swan contour/petal blending is not claimed invisible. Normal-speed contextual review remains pending.",
+  "curated_utc": "2026-10-27T20:21:05.833551Z",
+  "loop_review": "Hero updated from the user-supplied 1080p upscale. Dense full-loop frame and seam inspection plus independent encode comparison completed. The accepted 0.25-second circular overlap is preserved, including brief doubled swan contours and petals; not claimed ghost-free or perfectly seamless. Normal-speed contextual seam perception remains unverified. Hero and Nature media are unchanged by this three-scene update. Added Featured, Philosophy and Temple from actual Google Flow image-to-video sources with 1080p upscaled desktop and 720p mobile exports. Their full source/upscale chronology and dense loop seams were inspected. All new loops use 0.25-second overlaps, not black fades; brief swan contour/petal blending is not claimed invisible. Normal-speed contextual review remains pending. Nature update: the published accepted five-second loop was locally resampled from 1280x720 to 1920x1080 using Lanczos, with identical 120-frame timing and existing overlap. Desktop and mobile Nature files are now identical 1080p encodes. Independent all-frame, equal-scale and seam review found no new visible artifacts; existing brief swan-neck dissolve echo remains. This is spatial upscaling, not native 1080p or recovered detail.",
   "assets": [
     {
       "file": "01-hero-mobile.mp4",
@@ -171,10 +171,10 @@
       "role": "The Living Waters card — actual Gemini image-to-video",
       "kind": "video",
       "variant": "mobile",
-      "bytes": 959814,
-      "sha256": "24194a01237c0ab1e73c67772e9c88f48718c33c34a0f10973729097c27310b0",
-      "width": 960,
-      "height": 540,
+      "bytes": 3233123,
+      "sha256": "bb00a6e417b9c76b1935fe21da79d8e894d7c5bba0ab52477366bf8078a869ce",
+      "width": 1920,
+      "height": 1080,
       "duration_seconds": 5.0,
       "fps": "24/1",
       "codec": "h264",
@@ -187,10 +187,10 @@
       "role": "The Living Waters card — actual Gemini image-to-video",
       "kind": "poster",
       "variant": "mobile",
-      "bytes": 118484,
-      "sha256": "a4ce5b7452d95e4e339a491cfbcf7ac9d3d4e1d3426cc86e6d5427e8f7622b02",
-      "width": 960,
-      "height": 540
+      "bytes": 275060,
+      "sha256": "3664ea6f04c42bae8405ebeb59d8cacd7d6589b47961eb3f6d401351d77637fb",
+      "width": 1920,
+      "height": 1080
     },
     {
       "file": "04-nature.mp4",
@@ -198,10 +198,10 @@
       "role": "The Living Waters card — actual Gemini image-to-video",
       "kind": "video",
       "variant": "desktop",
-      "bytes": 1895278,
-      "sha256": "2541a2af4a88941695315008322337a8d37b236134385c044f107a81bbbbe6a9",
-      "width": 1280,
-      "height": 720,
+      "bytes": 3233123,
+      "sha256": "bb00a6e417b9c76b1935fe21da79d8e894d7c5bba0ab52477366bf8078a869ce",
+      "width": 1920,
+      "height": 1080,
       "duration_seconds": 5.0,
       "fps": "24/1",
       "codec": "h264",
@@ -214,10 +214,10 @@
       "role": "The Living Waters card — actual Gemini image-to-video",
       "kind": "poster",
       "variant": "desktop",
-      "bytes": 167914,
-      "sha256": "6ca242f19fd0bb5a7f9102550659d831befa3b4ee9959715c7dfd57f4a137ea0",
-      "width": 1280,
-      "height": 720
+      "bytes": 275060,
+      "sha256": "3664ea6f04c42bae8405ebeb59d8cacd7d6589b47961eb3f6d401351d77637fb",
+      "width": 1920,
+      "height": 1080
     },
     {
       "file": "05-temple-mobile.mp4",
