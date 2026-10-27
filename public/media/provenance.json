@@ -1,11 +1,13 @@
 {
   "project": "Elysia",
   "generation_date": "2026-10-27",
-  "scope": "Two actual image-to-video scenes plus three original-image stills. No animated-still substitutes presented as generated videos.",
-  "provider": "Gemini web UI",
+  "scope": "Five actual image-to-video scenes: two generated using Gemini and three using Google Flow. No animated-still substitutes presented as generated videos.",
+  "provider": "Gemini web UI (Hero and Nature); Google Flow web UI (Featured, Philosophy and Temple)",
   "observed_ui_labels": [
     "Create videos with Gemini Omni",
-    "Argon mode picker"
+    "Argon mode picker",
+    "Flow: Omni 1.1 Flash",
+    "Flow download: 1080p Upscaled"
   ],
   "backend_model": "Not independently verified; observed UI labels are not a backend-version claim.",
   "scenes": [
@@ -39,17 +41,61 @@
     },
     {
       "scene": "02-featured",
-      "role": "Featured / About — temporary static original-image scene",
+      "role": "Featured / About — actual Google Flow image-to-video",
       "reference_sha256": "2a5e1852efa25fbff90d523609e690fe5b67b9e30f326fdff471c068bc61c586",
-      "type": "original image still",
-      "processing": "Original provided image re-encoded as WebP; no simulated motion."
+      "type": "Google Flow image-to-video",
+      "processing": "Silent H.264 faststart, 24 fps, no color grade. Desktop 1920x1080 CRF24; mobile 1280x720 CRF23. Source segment 2.50–7.75s with 0.25-second circular overlap gives 5.00s output. No reverse motion or frame interpolation. WebP posters use output 0.5s.",
+      "observed_ui_model": "Omni 1.1 Flash",
+      "source_sha256": "5af3d25e1640e47d3e8e6e42cf69fadde572a76b3289cd675b0b344e1b192530",
+      "source_dimensions": [
+        1920,
+        1080
+      ],
+      "source_fps": 24,
+      "source_duration_seconds": 7.958333,
+      "web_duration_seconds": 5,
+      "original_generation_source": {
+        "sha256": "803d1e5463905e1202dc39628674364e16ea511f73de041cea44d46192607047",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "fps": 24,
+        "duration_seconds": 8.0
+      },
+      "upscale": "Google Flow download option labeled 1080p Upscaled. Apparent detail is enhanced; it is not claimed recovered factual detail. Upscale backend not independently verified.",
+      "quality": "Full-duration source and upscale frame reviews accepted stable architecture, camera and anatomy. Dense loop seam review completed; short overlap may visibly soften moving petals/reflections and briefly double swan contours. No black fade. Not claimed perfectly seamless; normal-speed page-context perception remains to be checked.",
+      "poster_frame": 12,
+      "poster_time_seconds": 0.5
     },
     {
       "scene": "03-philosophy",
-      "role": "Philosophy — temporary static original-image scene",
+      "role": "Philosophy — actual Google Flow image-to-video",
       "reference_sha256": "a5def11186324b359fd122f455281a63374528a4a059a195f1c7283a71f99d6d",
-      "type": "original image still",
-      "processing": "Original provided image re-encoded as WebP; no simulated motion."
+      "type": "Google Flow image-to-video",
+      "processing": "Silent H.264 faststart, 24 fps, no color grade. Desktop 1920x1080 CRF24; mobile 1280x720 CRF23. Source segment 1.00–6.25s with 0.25-second circular overlap gives 5.00s output. No reverse motion or frame interpolation. WebP posters use output 0.5s.",
+      "observed_ui_model": "Omni 1.1 Flash",
+      "source_sha256": "2536884158316aff9c6214088c968c0cfafa5451154c270834a13ec3005ae6ff",
+      "source_dimensions": [
+        1920,
+        1080
+      ],
+      "source_fps": 24,
+      "source_duration_seconds": 8.0,
+      "web_duration_seconds": 5,
+      "original_generation_source": {
+        "sha256": "5a1e1dcb6315b7263c1a5fa055ed714e39811aa8b405472f482efd0f64eb2c5f",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "fps": 24,
+        "duration_seconds": 8.0
+      },
+      "upscale": "Google Flow download option labeled 1080p Upscaled. Apparent detail is enhanced; it is not claimed recovered factual detail. Upscale backend not independently verified.",
+      "quality": "Full-duration source and upscale frame reviews accepted stable architecture, camera and anatomy. Dense loop seam review completed; short overlap may visibly soften moving petals/reflections and briefly double swan contours. No black fade. Not claimed perfectly seamless; normal-speed page-context perception remains to be checked.",
+      "poster_frame": 12,
+      "poster_time_seconds": 0.5
     },
     {
       "scene": "04-nature",
@@ -69,10 +115,32 @@
     },
     {
       "scene": "05-temple",
-      "role": "The Forgotten Sanctuary card — temporary static original-image scene",
+      "role": "The Forgotten Sanctuary card — actual Google Flow image-to-video",
       "reference_sha256": "6fa1b9a6e12c5c5392fbc91c975b871cbd296800c6e386d2452c65abee853725",
-      "type": "original image still",
-      "processing": "Original provided image re-encoded as WebP; no simulated motion."
+      "type": "Google Flow image-to-video",
+      "processing": "Silent H.264 faststart, 24 fps, no color grade. Desktop 1920x1080 CRF24; mobile 1280x720 CRF23. Source segment 2.75–8.00s with 0.25-second circular overlap gives 5.00s output. No reverse motion or frame interpolation. WebP posters use output 0.5s.",
+      "observed_ui_model": "Omni 1.1 Flash",
+      "source_sha256": "3cf8e10801cd5dca7b6b24132514aca2582a05742604b1c7fa992904c5429fa7",
+      "source_dimensions": [
+        1920,
+        1080
+      ],
+      "source_fps": 24,
+      "source_duration_seconds": 8.0,
+      "web_duration_seconds": 5,
+      "original_generation_source": {
+        "sha256": "174df5be436d4c3e36c056fee815475c2b3117ad11ff7434733940533bc4eba8",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "fps": 24,
+        "duration_seconds": 8.0
+      },
+      "upscale": "Google Flow download option labeled 1080p Upscaled. Apparent detail is enhanced; it is not claimed recovered factual detail. Upscale backend not independently verified.",
+      "quality": "Full-duration source and upscale frame reviews accepted stable architecture, camera and anatomy. Dense loop seam review completed; short overlap may visibly soften moving petals/reflections. No black fade. Not claimed perfectly seamless; normal-speed page-context perception remains to be checked.",
+      "poster_frame": 12,
+      "poster_time_seconds": 0.5
     }
   ]
 }
